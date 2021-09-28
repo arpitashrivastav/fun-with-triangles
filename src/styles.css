@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  background: #1f2937;
+  color: white;
+  text-align: center;
+}
+#triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid tomato;
+  margin: 50px auto;
+}
+.input {
+  margin: 20px auto;
+  text-transform: capitalize;
+}
+.input input {
+  height: 24px;
+}
+#is-triangle-btn {
+  padding: 15px 50px;
+  background: #5b21b6;
+  border: 1px solid #5b21b6;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: white;
+}
