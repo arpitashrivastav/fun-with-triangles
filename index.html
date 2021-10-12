@@ -10,15 +10,36 @@
     <h1>Check if Triangle?</h1>
     <div class="input">
       <label for="angle1">angle1</label>
-      <input type="number" id="number" class="angle-input" />
+      <input
+        type="number"
+        class="angle-input"
+				onkeypress="return (event.charCode == 8 || event.charCode == 0 || 
+    					event.charCode == 13) ? null : event.charCode >= 48 && event.charCode <= 57"
+        onpaste="return false"
+        pattern="[^\-]+"
+      />
     </div>
     <div class="input">
       <label for="angle2">angle2</label>
-      <input type="number" id="number" class="angle-input" />
+      <input
+        type="number"
+        class="angle-input"
+				onkeypress="return (event.charCode == 8 || event.charCode == 0 || 
+    					event.charCode == 13) ? null : event.charCode >= 48 && event.charCode <= 57"
+        onpaste="return false"
+        pattern="[^\-]+"
+      />
     </div>
     <div class="input">
       <label for="angle3">angle3</label>
-      <input type="number" id="number" class="angle-input" />
+      <input
+        type="number"
+        class="angle-input"
+				onkeypress="return (event.charCode == 8 || event.charCode == 0 || 
+    					event.charCode == 13) ? null : event.charCode >= 48 && event.charCode <= 57"
+        onpaste="return false"
+        pattern="[^\-]+"
+      />
     </div>
     <button id="is-triangle-btn">IS TRIANGLE?</button>
     <div id="output"></div>
